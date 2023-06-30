@@ -45,7 +45,7 @@ def range_cb(msg):
 
 
 if __name__ == "__main__":
-    rospy.init_node("offb_node")
+    rospy.init_node("test")
 
     # @@@@@ bag파일 관련 설정
     if not os.path.exists("BagFiles"):
