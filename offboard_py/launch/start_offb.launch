@@ -6,6 +6,6 @@
 	</include>
 
 	<!-- Our node to control the drone -->
-	<node pkg="offboard_py" type="offb_node.py" name="offb_node" required="true" output="screen"/>
+	<node pkg="offboard_py" type="test.py" name="test" required="true" output="screen"/>
 </launch>
 
